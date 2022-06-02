@@ -1,0 +1,148 @@
+
+@font-face
+{
+    font-family: 'MyWebFont';
+    src: url('MyWebFont.ttf') format('truetype');
+}
+
+.fontstyle
+{
+    font-family: 'MyWebFont';
+}
+.logo
+{
+    padding: 20px 0px 20px 0px;
+}
+.bg-light2
+{
+    background-color: rgb(245, 243, 243) !important;
+}
+.nav-link
+{
+    color: #ab5c2b !important;
+}
+.navbar-nav > li
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.youtubevideo
+{
+    text-align: center;
+}
+.gamedesc
+{
+    font-size: 20px;
+    font-family: 'MyWebFont';
+    color: rgb(112, 112, 112);
+}
+.info
+{
+    font-size: 18px;
+}
+a
+{
+    color: #ab5c2b !important;
+    text-decoration: none;
+}
+a:link 
+{
+    color: #ab5c2b !important;
+    text-decoration: none;
+}
+a::after{
+    color: #195050 !important;
+}
+a:hover{
+    color: #041616 !important;
+}
+ul
+{
+    /* list-style: none; */
+    font-family: 'MyWebFont';
+    font-size: 20px;
+}
+.item
+{
+    transition: .5s ease-in-out;
+}
+.item:hover
+{
+    filter: brightness(60%);
+}
+.button 
+{
+    border: none;
+    padding: 19px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'MyWebFont';
+}
+.button > a:hover
+{
+    color: white !important;
+}
+.button5 
+{
+    background-color: white;
+    border: 2px solid #000000;
+}
+.button5:hover
+{
+    background-color: #303030;
+    color: white;
+}
+.button6 
+{
+    background-color: rgb(248, 182, 0);
+    border: 2px solid #000000;
+}
+.button6 > a
+{
+    color: aliceblue !important;
+}
+.button6:hover
+{
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+}
+.bg-footer
+{
+    background-color: #1f1f1f !important;
+}
+.bg-footer2
+{
+    background-color: #171717 !important;
+}
+.footerparagraph
+{
+
+    padding: 50px 0px 50px 0px;
+    color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ab5c2b;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+  }
